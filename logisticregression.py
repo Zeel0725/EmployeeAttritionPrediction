@@ -82,4 +82,4 @@ print(df_logreg['left'].value_counts(normalize=True))
 
 # Create classification report for logistic regression model
 target_names = ['Predicted would not leave', 'Predicted would leave']
-print(classification_report(y_test, y_pred, target_names=target_names))
+print(classification_report(y_test, y_pred, target_names=target_names)) 
