@@ -8,6 +8,7 @@ This project aims to predict employee attrition using various machine learning m
 - [Technologies Used](#technologies-used)
 - [Dataset Description](#dataset-description)
 - [Modeling Process](#modeling-process)
+- [Results](#results)
 - [Future Enhancements](#future-enhancements)
 - [How to Use](#how-to-use)
 - [License](#license)
@@ -48,6 +49,9 @@ The dataset used for this project contains information about employees, includin
    - **Refined Decision Tree**: After feature engineering, a second Decision Tree model was built to see if the new features improved the performance.
    - **Refined Random Forest**: Similarly, a second iteration of the Random Forest model was built with the new features.
 
+## Results
+Random Forest generally outperforms Decision Tree in terms of precision, recall, F1 score, accuracy, and AUC, which is consistent with Random Forest’s robustness and ability to reduce overfitting by aggregating multiple trees.
+  
 ## Future Enhancements
 - Implement other advanced models such as Gradient Boosting or XGBoost.
 - Perform hyperparameter tuning to further improve model performance.
