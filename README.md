@@ -8,7 +8,6 @@ This project aims to predict employee attrition using various machine learning m
 - [Technologies Used](#technologies-used)
 - [Dataset Description](#dataset-description)
 - [Modeling Process](#modeling-process)
-- [Results](#results)
 - [Future Enhancements](#future-enhancements)
 - [How to Use](#how-to-use)
 - [License](#license)
@@ -45,15 +44,6 @@ The dataset used for this project contains information about employees, includin
 4. **Second Round of Model Building**:
    - **Refined Decision Tree**: After feature engineering, a second Decision Tree model was built to see if the new features improved the performance.
    - **Refined Random Forest**: Similarly, a second iteration of the Random Forest model was built with the new features.
-
-## Results
-- **Logistic Regression**: Initial accuracy of X%
-- **Decision Tree (1st round)**: Accuracy of Y%
-- **Random Forest (1st round)**: Accuracy of Z%
-- **Decision Tree (2nd round)**: Accuracy after feature engineering improved to P%
-- **Random Forest (2nd round)**: Best performance with an accuracy of Q%
-
-The refined models with feature engineering outperformed the initial models, with the Random Forest showing the highest prediction accuracy.
 
 ## Future Enhancements
 - Implement other advanced models such as Gradient Boosting or XGBoost.
