@@ -64,4 +64,11 @@ The refined models with feature engineering outperformed the initial models, wit
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Zeel0725/employee-attrition.git
+   git clone https://github.com/Zeel0725/EmployeeAttritionPrediction.git
+   cd EmployeeAttritionPrediction
+   ```
+
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
