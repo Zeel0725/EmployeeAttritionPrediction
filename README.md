@@ -17,10 +17,13 @@ This project aims to predict employee attrition using various machine learning m
 - Jupyter Notebook
 
 ## Dataset Description
-The dataset used for this project contains information about employees, including demographic, job role, satisfaction, and performance metrics.
+The dataset used for this project contains information about employees, including job role, satisfaction, and performance metrics.
 
 ### Key Features:
-- **Age**
+- **last_evaluation**
+- **number_project**
+- **tenure**
+- **overworked**
 - **Department**
 - **Job Role**
 - **Monthly Income**
